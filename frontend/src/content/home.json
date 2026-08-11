@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "title": "Home",
+    "description": ""
+  },
+  "sections": [
+    {
+      "id": "hero-banner",
+      "type": "banner",
+      "eyebrow": "YOUR RELIABLE IT SUPPORT PARTNER",
+      "headline": "Seamless Technology Solutions for Your Business.",
+      "cta": {
+        "label": "EXPLORE OUR SERVICES",
+        "path": "/services"
+      },
+      "image": {
+        "src": "/images/banner-support.png",
+        "alt": "IT support specialist at a desk"
+      }
+    }
+  ]
+}
