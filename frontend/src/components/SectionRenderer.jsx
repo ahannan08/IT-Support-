@@ -1,6 +1,7 @@
 import Banner from './sections/Banner'
 import Services from './sections/Services'
 import WhoWeAre from './sections/WhoWeAre'
+import GetStarted from './sections/GetStarted'
 import Hero from './sections/Hero'
 import FeatureGrid from './sections/FeatureGrid'
 import ServiceList from './sections/ServiceList'
@@ -12,6 +13,7 @@ const SECTION_MAP = {
   banner: Banner,
   services: Services,
   'who-we-are': WhoWeAre,
+  'get-started': GetStarted,
   hero: Hero,
   'feature-grid': FeatureGrid,
   'service-list': ServiceList,
