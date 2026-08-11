@@ -3,5 +3,38 @@
     "title": "Services",
     "description": ""
   },
-  "sections": []
+  "sections": [
+    {
+      "id": "services-banner",
+      "type": "page-banner",
+      "eyebrow": "OUR SERVICES",
+      "headline": "Smart Technology Solutions for Everyone"
+    },
+    {
+      "id": "services-grid",
+      "type": "service-grid",
+      "items": [
+        {
+          "title": "Email Support",
+          "body": "We fix email configuration errors, recover lost accounts, and resolve inbox glitches fast—keeping your team's communication running without a hitch.",
+          "image": { "src": "", "alt": "Email Support" }
+        },
+        {
+          "title": "Computer Troubleshooting",
+          "body": "From hardware glitches to software bugs, we diagnose and repair system issues quickly so your devices run smoothly for daily tasks.",
+          "image": { "src": "", "alt": "Computer Troubleshooting" }
+        },
+        {
+          "title": "Web Development",
+          "body": "We design and build fast, modern websites tailored to grow your business—delivered on time, without bloated agency pricing or confusing technical jargon.",
+          "image": { "src": "", "alt": "Web Development" }
+        },
+        {
+          "title": "Network Management",
+          "body": "Complete setup and monitoring for your IT infrastructure to ensure safe data flow, stable internet connections, and zero unnecessary downtime.",
+          "image": { "src": "", "alt": "Network Management" }
+        }
+      ]
+    }
+  ]
 }

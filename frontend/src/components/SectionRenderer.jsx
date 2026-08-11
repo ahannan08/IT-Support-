@@ -8,9 +8,13 @@ import ServiceList from './sections/ServiceList'
 import TextBlock from './sections/TextBlock'
 import Cta from './sections/Cta'
 import ContactForm from './sections/ContactForm'
+import PageBanner from './sections/PageBanner'
+import ServiceGrid from './sections/ServiceGrid'
 
 const SECTION_MAP = {
   banner: Banner,
+  'page-banner': PageBanner,
+  'service-grid': ServiceGrid,
   services: Services,
   'who-we-are': WhoWeAre,
   'get-started': GetStarted,
