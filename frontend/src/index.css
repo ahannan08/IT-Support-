@@ -150,6 +150,107 @@ ol {
   object-position: center;
 }
 
+.services {
+  padding: clamp(3.5rem, 7vw, 6rem) 0;
+  background: var(--color-mist);
+}
+
+.services-inner {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.services-header {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.services-eyebrow {
+  margin-bottom: 0.7rem;
+  color: var(--color-sky);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.services-headline {
+  max-width: 16ch;
+  color: var(--color-navy);
+  font-size: clamp(1.8rem, 3.4vw, 2.7rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.services-cta {
+  margin-top: 1.35rem;
+  padding: 0.75rem 1.3rem;
+  border: 1.5px solid var(--color-sky);
+  border-radius: 999px;
+  color: var(--color-navy);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.services-cta:hover {
+  background: var(--color-navy);
+  border-color: var(--color-navy);
+  color: var(--color-paper);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+  padding: 1.75rem 1.5rem 1.6rem;
+  background: var(--color-paper);
+  border-radius: 16px;
+  box-shadow: 0 14px 40px rgba(30, 62, 98, 0.08);
+}
+
+.service-icon {
+  width: 52px;
+  height: 52px;
+  color: var(--color-sky);
+}
+
+.service-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.service-copy h3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.65rem;
+  align-items: baseline;
+  color: var(--color-navy);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.service-copy h3 span {
+  color: var(--color-sky);
+  font-size: 0.9rem;
+}
+
+.service-copy p {
+  margin-top: 0.55rem;
+  color: var(--color-slate);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
 @media (max-width: 860px) {
   .banner {
     grid-template-columns: 1fr;
@@ -163,5 +264,13 @@ ol {
   .banner-media {
     min-height: 260px;
     aspect-ratio: 4 / 3;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-headline {
+    max-width: none;
   }
 }

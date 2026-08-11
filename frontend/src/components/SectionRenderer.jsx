@@ -1,4 +1,5 @@
 import Banner from './sections/Banner'
+import Services from './sections/Services'
 import Hero from './sections/Hero'
 import FeatureGrid from './sections/FeatureGrid'
 import ServiceList from './sections/ServiceList'
@@ -8,6 +9,7 @@ import ContactForm from './sections/ContactForm'
 
 const SECTION_MAP = {
   banner: Banner,
+  services: Services,
   hero: Hero,
   'feature-grid': FeatureGrid,
   'service-list': ServiceList,

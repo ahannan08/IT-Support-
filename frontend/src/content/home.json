@@ -17,6 +17,33 @@
         "src": "/images/banner-support.png",
         "alt": "IT support specialist at a desk"
       }
+    },
+    {
+      "id": "our-services",
+      "type": "services",
+      "eyebrow": "OUR SERVICES",
+      "headline": "Smart Technology Solutions for Everyone",
+      "cta": {
+        "label": "EXPLORE ALL SERVICES",
+        "path": "/services"
+      },
+      "items": [
+        {
+          "icon": "email",
+          "title": "Email Setup & Support",
+          "body": "Troubleshooting and management to keep your inbox working seamlessly."
+        },
+        {
+          "icon": "computer",
+          "title": "Computer Technical Support",
+          "body": "Expert diagnosis and instant resolution for all computer issues."
+        },
+        {
+          "icon": "web",
+          "title": "Web Design & Development",
+          "body": "Modern, high-speed websites crafted to help your brand grow online."
+        }
+      ]
     }
   ]
 }
