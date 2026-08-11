@@ -1,13 +1,29 @@
 {
   "brand": {
-    "name": "",
+    "name": "Imperium Technologies",
     "tagline": "",
-    "logoText": ""
+    "logoText": "Imperium Technologies"
   },
-  "nav": [],
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "About", "path": "/about" },
+    { "label": "Services", "path": "/services" },
+    { "label": "Contact", "path": "/contact" }
+  ],
+  "cta": {
+    "label": "Getting Started",
+    "path": "/contact"
+  },
   "footer": {
-    "blurb": "",
-    "columns": [],
-    "copyright": ""
+    "addresses": [
+      {
+        "label": "Principal Office Address",
+        "lines": ["7533 S CENTER VIEW CT STE 210", "West Jordan, UT 84084"]
+      },
+      {
+        "label": "Mailing Address",
+        "lines": ["7533 S CENTER VIEW CT STE 210", "West Jordan, UT 84084"]
+      }
+    ]
   }
 }
