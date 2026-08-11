@@ -44,6 +44,36 @@
           "body": "Modern, high-speed websites crafted to help your brand grow online."
         }
       ]
+    },
+    {
+      "id": "who-we-are",
+      "type": "who-we-are",
+      "eyebrow": "WHO WE ARE",
+      "headline": "Experienced Tech Experts You Can Rely On",
+      "intro": "At Blinkfixus, we deliver custom technology services built around your specific business needs.",
+      "footer": "Partner with us today to keep your business moving forward smoothly.",
+      "cta": {
+        "label": "LEARN MORE",
+        "path": "/about"
+      },
+      "items": [
+        {
+          "title": "Solve complex challenges",
+          "body": "We work alongside teams of all sizes."
+        },
+        {
+          "title": "Streamline daily operations",
+          "body": "Streamline daily operations and accelerate growth."
+        },
+        {
+          "title": "Upgrade your IT systems",
+          "body": "Upgrading your IT systems and building modern websites."
+        },
+        {
+          "title": "Reliable day-to-day support",
+          "body": "We ensure your tech just works."
+        }
+      ]
     }
   ]
 }

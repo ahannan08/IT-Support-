@@ -230,24 +230,98 @@ ol {
 }
 
 .service-copy h3 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem 0.65rem;
-  align-items: baseline;
   color: var(--color-navy);
   font-size: 1.05rem;
   font-weight: 700;
-}
-
-.service-copy h3 span {
-  color: var(--color-sky);
-  font-size: 0.9rem;
 }
 
 .service-copy p {
   margin-top: 0.55rem;
   color: var(--color-slate);
   font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.who {
+  padding: clamp(3.5rem, 7vw, 6rem) 0;
+  background: var(--color-paper);
+}
+
+.who-inner {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+}
+
+.who-eyebrow {
+  margin-bottom: 0.7rem;
+  color: var(--color-sky);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.who-headline {
+  max-width: 14ch;
+  color: var(--color-navy);
+  font-size: clamp(1.8rem, 3.4vw, 2.7rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.who-lead,
+.who-footer {
+  margin-top: 1rem;
+  max-width: 38ch;
+  color: var(--color-slate);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.who-cta {
+  display: inline-flex;
+  margin-top: 1.5rem;
+  padding: 0.85rem 1.35rem;
+  border-radius: 6px;
+  background: var(--color-navy);
+  color: var(--color-paper);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.who-cta:hover {
+  background: var(--color-slate);
+}
+
+.who-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.who-card {
+  padding: 1.35rem 1.25rem;
+  background: #fff;
+  border: 1px solid var(--color-mist);
+  border-radius: 14px;
+  box-shadow: 0 10px 28px rgba(30, 62, 98, 0.06);
+}
+
+.who-card h3 {
+  color: var(--color-navy);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.who-card p {
+  margin-top: 0.45rem;
+  color: var(--color-slate);
+  font-size: 0.94rem;
   line-height: 1.55;
 }
 
@@ -272,5 +346,17 @@ ol {
 
   .services-headline {
     max-width: none;
+  }
+
+  .who-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .who-headline {
+    max-width: none;
+  }
+
+  .who-grid {
+    grid-template-columns: 1fr;
   }
 }

@@ -16,16 +16,13 @@ export default function Services({ section }) {
         </header>
 
         <div className="services-grid">
-          {(section.items || []).map((item, index) => (
+          {(section.items || []).map((item) => (
             <article key={item.title} className="service-card">
               <div className="service-icon">
                 <ServiceIcon name={item.icon} />
               </div>
               <div className="service-copy">
-                <h3>
-                  <span>{String(index + 1).padStart(2, '0')}</span>
-                  {item.title}
-                </h3>
+                <h3>{item.title}</h3>
                 {item.body ? <p>{item.body}</p> : null}
               </div>
             </article>
