@@ -2,7 +2,8 @@
   "brand": {
     "name": "Imperium Technologies",
     "tagline": "",
-    "logoText": "Imperium Technologies"
+    "logoText": "Imperium Technologies",
+    "logo": "logo"
   },
   "nav": [
     { "label": "Home", "path": "/" },

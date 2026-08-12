@@ -17,22 +17,22 @@
         {
           "title": "Email Support",
           "body": "We fix email configuration errors, recover lost accounts, and resolve inbox glitches fast—keeping your team's communication running without a hitch.",
-          "image": { "src": "", "alt": "Email Support" }
+          "image": { "src": "email_sup", "alt": "Email Support" }
         },
         {
           "title": "Computer Troubleshooting",
           "body": "From hardware glitches to software bugs, we diagnose and repair system issues quickly so your devices run smoothly for daily tasks.",
-          "image": { "src": "", "alt": "Computer Troubleshooting" }
+          "image": { "src": "system_repair", "alt": "Computer Troubleshooting" }
         },
         {
           "title": "Web Development",
           "body": "We design and build fast, modern websites tailored to grow your business—delivered on time, without bloated agency pricing or confusing technical jargon.",
-          "image": { "src": "", "alt": "Web Development" }
+          "image": { "src": "web", "alt": "Web Development" }
         },
         {
           "title": "Network Management",
           "body": "Complete setup and monitoring for your IT infrastructure to ensure safe data flow, stable internet connections, and zero unnecessary downtime.",
-          "image": { "src": "", "alt": "Network Management" }
+          "image": { "src": "network", "alt": "Network Management" }
         }
       ]
     }

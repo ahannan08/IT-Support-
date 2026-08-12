@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom'
+import { resolveImage } from '../../content/images'
 
 export default function Banner({ section }) {
+  const imageSrc = resolveImage(section.image?.src)
+
   return (
     <section className="banner">
       <div className="banner-copy">
@@ -25,9 +28,9 @@ export default function Banner({ section }) {
           </ol>
         ) : null}
       </div>
-      {section.image?.src ? (
+      {imageSrc ? (
         <div className="banner-media">
-          <img src={section.image.src} alt={section.image.alt || ''} />
+          <img src={imageSrc} alt={section.image?.alt || ''} />
         </div>
       ) : null}
     </section>

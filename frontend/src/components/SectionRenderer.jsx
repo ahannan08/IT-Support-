@@ -10,11 +10,17 @@ import Cta from './sections/Cta'
 import ContactForm from './sections/ContactForm'
 import PageBanner from './sections/PageBanner'
 import ServiceGrid from './sections/ServiceGrid'
+import AboutSplit from './sections/AboutSplit'
+import AboutDual from './sections/AboutDual'
+import AboutPath from './sections/AboutPath'
 
 const SECTION_MAP = {
   banner: Banner,
   'page-banner': PageBanner,
   'service-grid': ServiceGrid,
+  'about-split': AboutSplit,
+  'about-dual': AboutDual,
+  'about-path': AboutPath,
   services: Services,
   'who-we-are': WhoWeAre,
   'get-started': GetStarted,

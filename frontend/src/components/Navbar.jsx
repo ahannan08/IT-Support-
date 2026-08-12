@@ -1,15 +1,17 @@
 import { Link, NavLink } from 'react-router-dom'
 import site from '../content/site.json'
+import { resolveImage } from '../content/images'
 
 export default function Navbar() {
   const brand = site.brand.logoText || site.brand.name
+  const logo = resolveImage(site.brand.logo)
 
   return (
     <header className="site-header">
       <div className="site-header-inner">
-        {brand ? (
+        {logo || brand ? (
           <NavLink to="/" end className="site-brand">
-            {brand}
+            {logo ? <img src={logo} alt={brand || 'Imperium Technologies'} /> : brand}
           </NavLink>
         ) : (
           <span />

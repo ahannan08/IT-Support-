@@ -3,5 +3,63 @@
     "title": "About",
     "description": ""
   },
-  "sections": []
+  "sections": [
+    {
+      "id": "about-who",
+      "type": "about-split",
+      "imagePosition": "left",
+      "eyebrow": "WHO WE ARE",
+      "headline": "A Practical IT Partner for Growing Businesses",
+      "body": [
+        "Imperium Technologies helps organizations keep everyday systems stable, clear, and ready for work. We focus on outcomes that matter: smoother workflows, fewer interruptions, and support people can actually reach.",
+        "Whether you need dependable help with email, computers, or your website, our team stays close to the problem until it is resolved—so your people can stay focused on the business."
+      ],
+      "image": {
+        "src": "partner",
+        "alt": "Imperium Technologies partner support"
+      }
+    },
+    {
+      "id": "about-mission-value",
+      "type": "about-dual",
+      "items": [
+        {
+          "eyebrow": "MISSION",
+          "headline": "Make Technology Quietly Dependable",
+          "body": "Our mission is to remove friction from the tools your team uses every day. We diagnose issues quickly, explain them in plain language, and put lasting fixes in place—not temporary workarounds."
+        },
+        {
+          "eyebrow": "OUR VALUE",
+          "headline": "Support Built Around Real Business Needs",
+          "body": "We measure success by uptime, response quality, and how little your staff has to chase IT. From first contact to follow-up, we keep communication direct and solutions practical."
+        }
+      ]
+    },
+    {
+      "id": "about-success",
+      "type": "about-split",
+      "imagePosition": "right",
+      "eyebrow": "OUR SUCCESS STORY",
+      "headline": "Trusted Help Across Everyday IT Challenges",
+      "body": [
+        "Clients come to us when email slows them down, devices refuse to cooperate, or a website needs to work harder for the business. Over time, those day-to-day wins have become long-term partnerships rooted in consistency and care.",
+        "That track record is simple: show up, solve the issue thoroughly, and leave systems stronger than we found them."
+      ],
+      "image": {
+        "src": "connect",
+        "alt": "Connected technology systems"
+      }
+    },
+    {
+      "id": "about-path",
+      "type": "about-path",
+      "eyebrow": "OUR PATH FORWARD",
+      "headline": "Building Stronger Systems as You Grow",
+      "body": "We keep refining how we support email, devices, networks, and web platforms so Imperium Technologies stays ready for the next challenge your business faces. The goal is steady progress: clearer processes, better tools, and support that scales with you.",
+      "image": {
+        "src": "strong_system",
+        "alt": "Building stronger IT systems"
+      }
+    }
+  ]
 }
