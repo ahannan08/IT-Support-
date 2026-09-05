@@ -8,6 +8,9 @@ import web from '../assets/web.png'
 import network from '../assets/network.png'
 import hero from '../assets/hero.png'
 import banner from '../assets/banner.png'
+import digitalMarketing from '../assets/digital.png'
+import webDesigning from '../assets/web designing.png'
+import appDevelopment from '../assets/app dev.png'
 
 const images = {
   logo,
@@ -20,6 +23,9 @@ const images = {
   network,
   hero,
   banner,
+  digital_marketing: digitalMarketing,
+  web_designing: webDesigning,
+  app_development: appDevelopment,
 }
 
 export function resolveImage(key) {

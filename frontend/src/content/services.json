@@ -33,6 +33,21 @@
           "title": "Network Management",
           "body": "Complete setup and monitoring for your IT infrastructure to ensure safe data flow, stable internet connections, and zero unnecessary downtime.",
           "image": { "src": "network", "alt": "Network Management" }
+        },
+        {
+          "title": "Digital Marketing",
+          "body": "We drive real growth through SEO, social media, and targeted ad campaigns—helping your brand reach the right audience and convert more customers online.",
+          "image": { "src": "digital_marketing", "alt": "Digital Marketing" }
+        },
+        {
+          "title": "Web Designing",
+          "body": "We craft clean, modern, and responsive website designs that reflect your brand and deliver a seamless experience across every device.",
+          "image": { "src": "web_designing", "alt": "Web Designing" }
+        },
+        {
+          "title": "App Development",
+          "body": "We build custom mobile and web applications tailored to your business goals—fast, reliable, and ready to scale as you grow.",
+          "image": { "src": "app_development", "alt": "App Development" }
         }
       ]
     }
